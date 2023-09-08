@@ -118,8 +118,8 @@ body {
 		--fg: #17181c;
 		--bg: #e3e4e8;
 	}
-	body{background:var(--bg) ;
-	color: var(--fg);
+	body{background:var(--fg) ;
+	color: var(--bg);
 	    }
 }
 /* Animations */
