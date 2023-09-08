@@ -6,7 +6,7 @@
 }
 
 :root {
-    --bg: #e3e4e8 !important;
+    --bg: #e3e4e8 ;
 	--fg: #17181c;
 	--dur: 8s;
 	font-size: calc(20px + (30 - 20) * (100vw - 320px) / (1280 - 320));
@@ -14,8 +14,8 @@
 
 
 body {
-	background:var(--bg) ;
-	color: var(--fg);
+	background:var(--fg) ;
+	color: var(--bg);
 	font: bold 1em/1.5 "Comfortaa", sans-serif;
 	display: grid;
 	place-items: center;
@@ -115,12 +115,9 @@ body {
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--fg: #17181c;
-		--bg: #e3e4e8;
+		--bg: #17181c;
+		--fg: #e3e4e8;
 	}
-	body{background:var(--fg) ;
-	color: var(--bg);
-	    }
 }
 /* Animations */
 @keyframes moveOut1 {
