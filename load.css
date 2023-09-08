@@ -6,16 +6,16 @@
 }
 
 :root {
-    --fg: #e3e4e8 ;
-	--bg: #17181c;
+    --bg: #e3e4e8;
+	--fg: #17181c;
 	--dur: 8s;
 	font-size: calc(20px + (30 - 20) * (100vw - 320px) / (1280 - 320));
 }
 
 
 body {
-/* 	background:#17181c ; */
-	color: #e3e4e8  ;
+	background:var(--bg) ;
+	color: var(--fg);
 	font: bold 1em/1.5 "Comfortaa", sans-serif;
 	display: grid;
 	place-items: center;
@@ -113,12 +113,12 @@ body {
 	transform: rotate(-150deg)
 }
 /* Dark theme */
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 	:root {
 		--bg: #17181c;
 		--fg: #e3e4e8;
 	}
-} */
+}
 /* Animations */
 @keyframes moveOut1 {
 	from { transform: translateY(0) scale(0); }
