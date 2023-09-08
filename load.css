@@ -115,8 +115,8 @@ body {
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--fg: #17181c;
-		--bg: #e3e4e8;
+		--bg: #17181c;
+		--fg: #e3e4e8;
 	}
 }
 /* Animations */
