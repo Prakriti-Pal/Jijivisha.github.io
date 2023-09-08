@@ -14,8 +14,8 @@
 
 
 body {
-	background:var(--bg) ;
-	color: var(--fg);
+	background:#17181c ;
+	color: #e3e4e8  ;
 	font: bold 1em/1.5 "Comfortaa", sans-serif;
 	display: grid;
 	place-items: center;
@@ -113,12 +113,12 @@ body {
 	transform: rotate(-150deg)
 }
 /* Dark theme */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 	:root {
 		--bg: #17181c;
 		--fg: #e3e4e8;
 	}
-}
+} */
 /* Animations */
 @keyframes moveOut1 {
 	from { transform: translateY(0) scale(0); }
