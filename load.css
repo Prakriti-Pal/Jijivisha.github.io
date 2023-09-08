@@ -14,8 +14,8 @@
 
 
 body {
-	background:var(--fg) ;
-	color: var(--bg);
+	background:var(--bg) ;
+	color: var(--fg);
 	font: bold 1em/1.5 "Comfortaa", sans-serif;
 	display: grid;
 	place-items: center;
