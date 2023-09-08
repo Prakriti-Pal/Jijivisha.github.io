@@ -6,7 +6,7 @@
 }
 
 :root {
-    --bg: #e3e4e8;
+    --bg: #e3e4e8 !important;
 	--fg: #17181c;
 	--dur: 8s;
 	font-size: calc(20px + (30 - 20) * (100vw - 320px) / (1280 - 320));
